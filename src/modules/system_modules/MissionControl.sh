@@ -1,11 +1,11 @@
 source src/utils/constants.sh
 source src/utils/logger.sh
 
-PKG_URL=https://github.com/ndeadly/MissionControl/releases/download/v0.4.1/MissionControl-0.4.1.zip
+PKG_URL=https://github.com/ndeadly/MissionControl/releases/tag/v0.5.0
 PKG_DIR=$ROOT_BUILD_PATH/MissionControl
 PKG_OUT_DIR=$ROOT_BUILD_PATH/MissionControl/out
-PKG_FILE_PATH=$PKG_DIR/MissionControl-0.4.1.zip
-PKG_FILE_HASH=8ba5236adddcd778729ed2d9abd5b6fb
+PKG_FILE_PATH=$PKG_DIR/MissionControl-0.5.0.zip
+PKG_FILE_HASH=e54fbcd64754273b050c540036b348a6
 
 fs_download $PKG_URL $PKG_FILE_PATH $PKG_FILE_HASH
 

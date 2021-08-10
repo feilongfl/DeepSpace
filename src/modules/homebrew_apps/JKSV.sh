@@ -1,11 +1,11 @@
 source src/utils/constants.sh
 source src/utils/logger.sh
 
-PKG_URL=https://github.com/J-D-K/JKSV/releases/download/06.07.2020/JKSV.nro
+PKG_URL=https://github.com/J-D-K/JKSV/releases/download/08.01.2021/JKSV.nro
 PKG_DIR=$ROOT_BUILD_PATH/JKSV
 PKG_OUT_DIR=$ROOT_BUILD_PATH/JKSV/out
 PKG_FILE_PATH=$PKG_DIR/JKSV.nro
-PKG_FILE_HASH=912e9c3a62f69ff06fbd7a8b432a1fd8
+PKG_FILE_HASH=f30145f1c64d9b54591a5d68a3c42e8e
 
 fs_download $PKG_URL $PKG_FILE_PATH $PKG_FILE_HASH
 
