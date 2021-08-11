@@ -13,11 +13,9 @@ fs_unzip $PKG_FILE_PATH $PKG_OUT_DIR
 
 cp -r $PKG_OUT_DIR/* $ROOT_DIST_PATH
 
-DIST_HEKATE_BIN_FILE_PATH=$ROOT_DIST_PATH/hekate_ctcaer_5.5.4.bin
+DIST_HEKATE_BIN_FILE_PATH=$ROOT_DIST_PATH/hekate_ctcaer_5.5.8.bin
 mv $DIST_HEKATE_BIN_FILE_PATH $ROOT_DIST_PATH/payload.bin
 cp $ROOT_DIST_PATH/payload.bin $ROOT_DIST_PATH/bootloader/update.bin
 
 cp -r src/modules/bootloader/hekate/* $ROOT_DIST_PATH/bootloader/
 cp -r src/modules/bootloader/sx_gear/* $ROOT_DIST_PATH
-
-mv $DIST_HEKATE_BIN_FILE_PATH $ROOT_DIST_PATH/payload.bin
