@@ -2,7 +2,7 @@ source src/utils/logger.sh
 
 function fs_mkdir() {
     if [ ! -d $1 ]; then
-        mkdir $1
+        mkdir -p $1
     fi
 }
 
@@ -38,7 +38,7 @@ function fs_download() {
 
     log ">> fs_download $@"
 
-    wget $1 -O $2
+    wget -q $1 -O $2
 
     log "<< fs_download $@"
 
@@ -53,7 +53,7 @@ function fs_unzip() {
     log ">> fs_unzip $@"
 
     fs_cldir $2
-    unzip $1 -d $2
+    unzip -q $1 -d $2
 
     log "<< fs_unzip $@"
 }
