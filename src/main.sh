@@ -30,6 +30,7 @@ bash src/modules/homebrew_apps/Tencent-switcher-GUI.sh
 bash src/modules/homebrew_apps/Tinfoil.sh
 bash src/modules/homebrew_apps/TriPlayer.sh
 bash src/modules/homebrew_apps/Switch_90DNS_tester.sh
+bash src/modules/homebrew_apps/SysDVR.sh
 
 cd $ROOT_DIST_PATH
 git_tag=$(git describe --tags)
