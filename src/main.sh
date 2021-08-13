@@ -17,6 +17,7 @@ bash src/modules/system_modules/ovl-EdiZon.sh
 
 bash src/modules/homebrew_apps/aio-switch-updater.sh
 bash src/modules/homebrew_apps/Awoo-Installer.sh
+bash src/modules/homebrew_apps/Browser.sh
 bash src/modules/homebrew_apps/chiaki.sh
 bash src/modules/homebrew_apps/dbi.sh
 bash src/modules/homebrew_apps/EdiZon.sh
