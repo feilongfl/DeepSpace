@@ -27,6 +27,7 @@ bash src/modules/homebrew_apps/JKSV.sh
 bash src/modules/homebrew_apps/linkalho.sh
 bash src/modules/homebrew_apps/NX-Activity-Log.sh
 bash src/modules/homebrew_apps/NX-Shell.sh
+bash src/modules/homebrew_apps/pplay.sh
 bash src/modules/homebrew_apps/Tencent-switcher-GUI.sh
 bash src/modules/homebrew_apps/Tinfoil.sh
 bash src/modules/homebrew_apps/TriPlayer.sh
