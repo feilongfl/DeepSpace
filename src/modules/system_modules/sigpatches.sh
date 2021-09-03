@@ -1,7 +1,7 @@
 source src/utils/constants.sh
 source src/utils/logger.sh
 
-PKG_URL=https://github.com/ITotalJustice/patches/releases/download/12.1.0-0.19.5-r2/fusee.zip
+PKG_URL=https://github.com/ITotalJustice/patches/releases/download/12.1.0-0.20.1/fusee.zip
 PKG_DIR=$ROOT_BUILD_PATH/sigpatches
 PKG_OUT_DIR=$ROOT_BUILD_PATH/sigpatches/out
 PKG_FILE_PATH=$PKG_DIR/fusee.zip

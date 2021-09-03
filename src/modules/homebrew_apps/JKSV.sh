@@ -1,7 +1,7 @@
 source src/utils/constants.sh
 source src/utils/logger.sh
 
-PKG_URL=https://github.com/J-D-K/JKSV/releases/download/08.01.2021/JKSV.nro
+PKG_URL=https://github.com/J-D-K/JKSV/releases/download/09%2F01%2F2021/JKSV.nro
 PKG_DIR=$ROOT_BUILD_PATH/JKSV
 PKG_OUT_DIR=$ROOT_BUILD_PATH/JKSV/out
 PKG_FILE_PATH=$PKG_DIR/JKSV.nro
