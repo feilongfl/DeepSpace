@@ -5,7 +5,7 @@ PKG_URL=https://github.com/Atmosphere-NX/Atmosphere/releases/download/0.20.1/atm
 PKG_DIR=$ROOT_BUILD_PATH/atmosphere
 PKG_OUT_DIR=$ROOT_BUILD_PATH/atmosphere/out
 PKG_FILE_PATH=$PKG_DIR/atmosphere.zip
-PKG_FILE_HASH=62862715703c41b616f76bd00dbdffd7
+PKG_FILE_HASH=4e38b3e67b7e479495c2b104afc6f005
 
 fs_download $PKG_URL $PKG_FILE_PATH $PKG_FILE_HASH
 

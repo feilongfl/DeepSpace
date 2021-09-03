@@ -5,7 +5,7 @@ PKG_URL=https://github.com/ndeadly/MissionControl/releases/download/v0.5.1/Missi
 PKG_DIR=$ROOT_BUILD_PATH/MissionControl
 PKG_OUT_DIR=$ROOT_BUILD_PATH/MissionControl/out
 PKG_FILE_PATH=$PKG_DIR/MissionControl.zip
-PKG_FILE_HASH=c6e601762a112eab52de42923c5d6aba
+PKG_FILE_HASH=3722350f4723210861118d6f6766498b
 
 fs_download $PKG_URL $PKG_FILE_PATH $PKG_FILE_HASH
 
